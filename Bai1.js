@@ -1,0 +1,11 @@
+inputMath = prompt("Diem mon toan");
+inputPhysics = prompt("Diem mon vat li");
+inputChemistry = prompt("Diem mon hoa");
+        let math = parseInt(inputMath);
+        let physics = parseInt(inputPhysics);
+        let chemistry = parseInt(inputChemistry);
+        let Tong = math + physics + chemistry;
+        document.write("Tong =  " + Tong);
+        document.write('<br/>');
+        let TB = (math + physics + chemistry)/3;
+        document.write("TB = " + TB);
